@@ -56,6 +56,7 @@ margin-top: 0%;
   text-shadow: 2px 2px #02010a;
   animation-name: animacion-inicio;
   animation-duration: 1s;
+  align-items: center;
 }
 
 #Encabezado a {
@@ -66,6 +67,7 @@ margin-top: 0%;
 
 .nav {
   text-align: right;
+  align-items: center;
 }
 
 a {
@@ -74,6 +76,7 @@ a {
 
 img {
   width: 100%;
+  box-shadow: 2px 2px #02010a;
 }
 
 .Center {
@@ -88,7 +91,6 @@ margin:auto;
 }
 
 .ICentral img {
-  box-shadow: 2px 2px #02010a;
   width: 50%;
   max-height: 300px;
   max-width: 450px;
@@ -103,7 +105,6 @@ margin:auto;
 
 .IIzquierda img {
   transition-duration: 0.5s;
-  box-shadow: 2px 2px #02010a;
   width: 50%;
 }
 
@@ -122,13 +123,24 @@ margin:auto;
 
 .IDerecha img {
   transition-duration: 0.5s;
-  box-shadow: 2px 2px #02010a;
   width: 50%;
 }
 
 .IDerecha img:hover {
   transform: translate(5px, -20px);
   box-shadow: 2px 2px #82c3a6;
+}
+
+.i1 img {
+  filter: blur(10px);
+}
+
+.container :nth-of-type(even) img {
+  filter: grayscale(100%);
+}
+
+.i3 img {
+  filter: sepia(90%);
 }
 
 #pdp div {
